@@ -1,0 +1,38 @@
+.footerData {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.last-added {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+}
+
+.marquee-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 240px;
+  white-space: nowrap;
+}
+
+.marquee {
+  display: inline-block;
+  animation: scroll-left 10s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  10% {
+    transform: translateX(0); /* se queda quieto un rato */
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+

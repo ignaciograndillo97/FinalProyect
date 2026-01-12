@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 4px solid #000000;
+}
+
+.title {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 3em;
+  color: #000;
+}
